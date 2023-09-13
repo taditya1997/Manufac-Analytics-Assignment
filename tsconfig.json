@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // Or a different target version if needed
+      "module": "ESNext",
+      "jsx": "react",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": false,
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "paths": {
+        "*": ["src/*"]
+      }
+    },
+    "include": ["src/**/*.tsx", "src/**/*.ts", "src/utils/data.js"],
+    "exclude": ["node_modules"]
+  }
+  
